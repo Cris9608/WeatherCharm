@@ -1,9 +1,9 @@
 import requests
-
+from keys import *
 
 URL_METEORO = "https://www.meteoromania.ro/wp-json/meteoapi/v2/starea-vremii"
 
-API_KEY_OWM = "d15023b8fba4f391caee4711c1842007"
+API_KEY_OWM = owm_key
 API_OWM_GEO = "http://api.openweathermap.org/geo/1.0/direct"
 
 API_OWM_PROG = "https://api.openweathermap.org/data/2.5/onecall"
